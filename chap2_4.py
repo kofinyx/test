@@ -15,6 +15,3 @@ myfloat2 = array('d')
 fp = open('myfloat.txt', 'rb')
 myfloat2.fromfile(fp, 10**7)
 print(myfloat2[-1])
-'''for i in myfloat:
-    fp.write(str(i))
-    fp.write('\n')'''
